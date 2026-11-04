@@ -1,0 +1,29 @@
+.navbar {
+    margin-top: 1rem;
+    min-height: 50px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar a {
+    border-radius: 15px;
+    padding: 0.6rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin: 0 1.7rem;
+    transition:
+        color 0.5s ease-in-out,
+        border-color 0.5s ease-in-out,
+        background-color 0.5s ease-in-out;
+}
+
+.navbar a:hover {
+    color: var(--orange-300);
+    background-color: var(--orange-800);
+    border-color: var(--orange-100);
+}

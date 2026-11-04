@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-base);
+    color: var(--text-secondary);
+}
+
+nav,
+main,
+footer {
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+}
+
+.highlight {
+    color: var(--text-accent);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1.5rem;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-container p {
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+:root {
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+    --border-primary: #292b36;
+
+
+    --bg-base: #0e0f15;
+
+
+
+    --text-primary: #eeeeee;
+    --text-secondary: #c6c6c6;
+    --text-muted: #999999;
+    --text-accent: #f5bd3f;
+}
