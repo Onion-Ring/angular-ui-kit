@@ -30,24 +30,6 @@ h3 {
     color: var(--text-accent);
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 1.5rem;
-}
-
-.logo-container img {
-    width: 50px;
-    height: 50px;
-}
-
-.logo-container p {
-    margin-left: 1.5rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: var(--text-primary);
-}
 
 :root {
     --font-heading: 'Playfair Display', Georgia, serif;
