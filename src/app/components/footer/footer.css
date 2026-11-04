@@ -141,6 +141,9 @@
         grid-template-columns: repeat(4, auto);
     }
 
+    .footer__bottom {
+        flex-direction: row;
+    }
+
 }
 
-/* @media (max-width: 1300px) {} */
