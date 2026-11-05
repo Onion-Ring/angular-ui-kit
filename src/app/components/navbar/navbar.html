@@ -2,12 +2,10 @@
     <div class="logo-container">
         <img src="./assets/angular.svg" alt="Logo" class="logo" />
         <p>NG<span class="highlight">UI</span> Kit</p>
-    </div>        
+    </div>
 
     <div class="navbar__links">
-        <a href="/">Home</a>
-        <a href="/guide">Components guide</a>
-        <a href="/guide">Components guide</a>
-        <a href="/guide">Components guide</a>        
+        <a routerLink="/" class="navbar_link" routerLinkActive="highlighted-content" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        <a routerLink="/guide" class="navbar_link" routerLinkActive="highlighted-content" [routerLinkActiveOptions]="{ exact: true }">Components guide</a>        
     </div>
 </nav>

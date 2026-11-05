@@ -10,6 +10,11 @@ body {
     color: var(--text-secondary);
 }
 
+
+main{
+    margin-bottom: 2.5rem;
+}
+
 nav,
 main,
 footer {
@@ -31,6 +36,8 @@ h3 {
 }
 
 
+
+
 :root {
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
@@ -40,6 +47,7 @@ h3 {
 
     --bg-base: #0e0f15;
 
+    --bg-accent: #2d2311;
 
 
     --text-primary: #eeeeee;
