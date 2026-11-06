@@ -1,0 +1,51 @@
+<button (click)="toggleSideBar()">open</button>
+
+@if (isSideBarOpen()) {
+
+     <aside class="sidebar" animate.enter="fade-in" animate.leave="fade-out">
+
+        <div class="sidebar__header">
+            <span class="sidebar__eyebrow">NGUI KIT</span>            
+            <p>Explore UI components.</p>
+        </div>
+
+        <nav class="sidebar__navigation">
+
+            <!-- Components -->
+            <div class="sidebar__group">
+                <span class="sidebar__group-title">COMPONENTS</span>
+
+                <a>
+                    <span class="nav-icon">▣</span>
+                    Buttons
+ 
+                </a>
+
+                <a>
+                    <span class="nav-icon">▤</span>
+                    Inputs
+                </a>
+
+                <a>
+                    <span class="nav-icon">▱</span>
+                    Cards
+                </a>
+
+                <a>
+                    <span class="nav-icon">⌄</span>
+                    Dropdowns
+                </a>
+
+                <a>
+                    <span class="nav-icon">▢</span>
+                    Modals
+                </a>
+
+                
+            </div>
+
+            
+
+        </nav>
+    </aside>
+}   

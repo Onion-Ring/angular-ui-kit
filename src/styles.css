@@ -11,7 +11,7 @@ body {
 }
 
 
-main{
+main {
     margin-bottom: 2.5rem;
 }
 
@@ -54,4 +54,7 @@ h3 {
     --text-secondary: #c6c6c6;
     --text-muted: #999999;
     --text-accent: #f5bd3f;
+
+    --sidebar-bg: #11131a;
+
 }

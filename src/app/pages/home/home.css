@@ -1,3 +1,7 @@
+header{
+    background-color: transparent;
+}
+
 .ngui-hero {
     width: 100%;
     display: flex;
@@ -59,7 +63,7 @@
 }
 
 
-.properties {
+.properties {    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +97,43 @@
     background: radial-gradient(80% 80% at 50% 50%, rgba(206, 160, 10, 0.342), transparent 70%) var(--bg-base);
 }
 
+
+.fade-in-left{
+    animation: fadeInLeft 2s ease;
+    /* animation-delay: 1s; */
+}
+
+
+@keyframes fadeInLeft {
+
+    from{
+        transform: translateX(-250%);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes fadeinBottom {
+
+    from {      
+        opacity: 0;  
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.fade-in-right {
+    animation: fadeinBottom 1s ease;
+
+}
 
 @media (min-width: 810px) {
 
