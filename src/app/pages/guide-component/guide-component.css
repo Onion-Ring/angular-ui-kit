@@ -1,0 +1,27 @@
+.guide-layout {
+    display: flex;
+    width: 100%;
+    min-height: 0vh;
+}
+
+
+.back-button {
+    width: 60px;
+    height: 60px;
+    margin-top: 2rem;    
+    flex-shrink: 0;
+    background: transparent;
+    border: transparent;
+    padding: 1rem;
+    color: var(--text-primary);
+}
+
+
+.guide-content {
+
+    flex: 1;
+    min-width: 0;
+
+    margin-top: 2rem;
+
+}

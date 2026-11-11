@@ -2,8 +2,7 @@
     display: flex;
     margin-top: 2rem;
     width: 260px;
-    height: 100%;
-    min-height: 100vh;    
+    height: calc(100% - 2rem);    
     flex-direction: column;
     padding: 1rem;
     background: var(--sidebar-bg);
@@ -121,7 +120,7 @@
 
 /* Active link */
 
-.sidebar__group a.active {
+.sidebar__group-active {
     color: var(--text-accent);
 
     background:

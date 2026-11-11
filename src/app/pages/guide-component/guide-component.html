@@ -1,3 +1,11 @@
-<section>
-    <app-sidebar/>
+<section class="guide-layout">
+    <app-sidebar  [isSideBarOpen]="sideBarOpen()" />        
+    @if (sideBarOpen()) {
+        <button (click)="toggleSideBar()" class="back-button">&Larr;</button>
+    }@else{
+        <button (click)="toggleSideBar()" class="back-button">&Rarr;</button>
+    }        
+    <main class="guide-content">
+        <router-outlet></router-outlet>
+    </main>
 </section>

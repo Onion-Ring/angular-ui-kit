@@ -1,18 +1,18 @@
-import { Component, signal, WritableSignal } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { RouterLink,RouterLinkActive } from '@angular/router';
+
 
 @Component({
   selector: 'app-sidebar',
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './sidebar.html',
   styleUrl: './sidebar.css',
 })
 export class Sidebar {
 
-  isSideBarOpen = signal(true);
+  isSideBarOpen = input.required<boolean>();
 
 
-  toggleSideBar(){
-    this.isSideBarOpen.set(!this.isSideBarOpen());
-  }
+
 
 }
